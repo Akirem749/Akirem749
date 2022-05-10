@@ -1,0 +1,118 @@
+img{
+  width: 150px;
+  
+  border-radius: 10px;
+}
+.general{
+  display: flex;
+  column-gap: 50px;
+  justify-content: center;
+  border-radius: 20px;
+  margin-top: 80px;
+ margin-bottom: 40px;
+}
+.text{
+  font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+font-size: 20px;
+margin-bottom: 10px;
+color: rgba(0, 0, 0, 0.644);
+text-decoration: underline;
+
+}
+.column{
+  display: flex;
+  row-gap: 20px;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+flex-direction:column;
+border-radius: 10px;
+justify-content: center;
+}
+.bar{
+  /* stylesheet for sidebar*/
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  width: 200px;
+  background-color: rgb(56, 57, 61);
+
+}
+
+
+
+
+.html{
+ 
+  box-shadow: 1px 1px 5px rgba(212, 0, 0, 0.308);
+}
+.css{
+  box-shadow: 1px 1px 5px rgba(0, 0, 255, 0.438);
+}
+.java{
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.473);
+}
+.boot{
+  box-shadow: 1px 1px 5px rgba(70, 0, 128, 0.39);
+}
+.react{
+  box-shadow: 1px 1px 5px rgba(0, 195, 255, 0.459);
+}
+.sass{
+  box-shadow: 1px 1px 5px rgba(128, 0, 96, 0.363);
+
+}
+.webp{
+  box-shadow: 1px 1px 5px rgba(7, 4, 172, 0.404);
+}
+.typ{
+  box-shadow: 1px 1px 5px rgba(38, 0, 255, 0.527);
+
+}
+.nam{
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 10px;
+  font-size: 20px;
+  color: gray;
+}
+.axios{
+  box-shadow: 1px 1px 5px rgba(255, 115, 0, 0.534);
+}
+.header{
+  position: absolute;
+  display: flex;
+  height: 70px;
+  
+  top: 0;
+  left: 0;
+  right: 0;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+
+  
+}
+.frontend{
+  background-color: rgb(132, 0, 255);
+  padding: 10px 20px 10px 20px;
+  color: white;
+  border-radius: 40px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.footnote{
+  position: absolute;
+  bottom: 0;
+ background-color: rgba(255, 72, 0, 0.849);
+  right: 40px;
+  font-size: 15px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+ padding: 5px 10px 5px 10px;
+ border-radius: 5px;
+ font-weight: bold;
+}
+
